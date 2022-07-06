@@ -1,0 +1,62 @@
+m = 1000000
+    difference between n = 6 and n = 20
+    (754863 - 749283) - (434822 - 429296) = 54 (milliseconds)
+    no significant difference between 6 and 20 threads
+
+    difference between n = 20 and n = 50
+    (434822 - 429296) - (933361 - 923870) = -3965
+    if we start increasing the number of threads after 20 we are getting slower performance
+
+main thread starts tid=139998196090688, pid=9468
+seconds : 1648985813
+micro seconds : 749283
+m = 1000000, n = 6
+Thread main is finished.
+seconds : 1648985813
+micro seconds : 754863
+Result = inf
+-
+main thread starts tid=140606709761856, pid=9565
+seconds : 1648985832
+micro seconds : 429296
+m = 1000000, n = 20
+Thread main is finished.
+seconds : 1648985832
+micro seconds : 434822
+Result = inf
+-
+main thread starts tid=139637466834752, pid=9607
+seconds : 1648985839
+micro seconds : 923870
+m = 1000000, n = 50
+Thread main is finished.
+seconds : 1648985839
+micro seconds : 933361
+Result = inf
+-
+main thread starts tid=140050108483392, pid=9673
+seconds : 1648985847
+micro seconds : 659629
+m = 1000000, n = 100
+Thread main is finished.
+seconds : 1648985847
+micro seconds : 682949
+Result = inf
+-
+main thread starts tid=139758404990784, pid=9774
+seconds : 1648985854
+micro seconds : 38578
+m = 1000000, n = 500
+Thread main is finished.
+seconds : 1648985854
+micro seconds : 96829
+Result = inf
+-
+main thread starts tid=140589885159232, pid=10296
+seconds : 1648985862
+micro seconds : 74437
+m = 1000000, n = 1000
+Thread main is finished.
+seconds : 1648985862
+micro seconds : 169364
+Result = inf

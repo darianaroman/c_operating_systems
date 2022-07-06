@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+ERR_MSG	l4/p1.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l4/samples/check-result-of-open.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l4/samples/check-result-of-read.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l4/samples/check-result-of-write.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l4/samples/learning-about-current-position.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l4/samples/write-and-read-integers.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l5/samples/get-metadata.c	/^#define ERR_MSG(/;"	d	file:
+ERR_MSG	l5/samples/list-dir-contents.c	/^#define ERR_MSG(/;"	d	file:
+MAX	l4/samples/check-result-of-read.c	/^#define MAX /;"	d	file:
+MAX	l4/samples/check-result-of-write.c	/^#define MAX /;"	d	file:
+MAX	l4/samples/learning-about-current-position.c	/^#define MAX /;"	d	file:
+MAX	l4/samples/write-and-read-integers.c	/^#define MAX /;"	d	file:
+MAX	l5/samples/get-metadata.c	/^#define MAX /;"	d	file:
+MAX_PATH_LEN	l5/samples/list-dir-contents.c	/^#define MAX_PATH_LEN /;"	d	file:
+__DEBUG	l4/p1.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l4/samples/check-result-of-open.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l4/samples/check-result-of-read.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l4/samples/check-result-of-write.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l4/samples/learning-about-current-position.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l4/samples/write-and-read-integers.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l5/samples/get-metadata.c	/^#define __DEBUG$/;"	d	file:
+__DEBUG	l5/samples/list-dir-contents.c	/^#define __DEBUG$/;"	d	file:
+debug_info	l4/p1.c	/^void debug_info(const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l4/samples/check-result-of-open.c	/^void debug_info (const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l4/samples/check-result-of-read.c	/^void debug_info (const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l4/samples/check-result-of-write.c	/^void debug_info (const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l4/samples/learning-about-current-position.c	/^void debug_info (const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l4/samples/write-and-read-integers.c	/^void debug_info(const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l5/samples/get-metadata.c	/^void debug_info (const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+debug_info	l5/samples/list-dir-contents.c	/^void debug_info (const char *file, const char *function, const int line)$/;"	f	typeref:typename:void
+get_line	l4/p1.c	/^int get_line(int fd, char *line, int line_no, int max_length, int *line_length)$/;"	f	typeref:typename:int
+listDir	l5/samples/list-dir-contents.c	/^void listDir(char *dirName)$/;"	f	typeref:typename:void
+main	l4/p1.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l4/samples/check-result-of-open.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l4/samples/check-result-of-read.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l4/samples/check-result-of-write.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l4/samples/learning-about-current-position.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l4/samples/write-and-read-integers.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l5/samples/get-metadata.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	l5/samples/list-dir-contents.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+program_name	l4/samples/check-result-of-open.c	/^const char *program_name;$/;"	v	typeref:typename:const char *
+program_name	l4/samples/check-result-of-read.c	/^const char *program_name;$/;"	v	typeref:typename:const char *
+program_name	l4/samples/check-result-of-write.c	/^const char *program_name;$/;"	v	typeref:typename:const char *
+program_name	l4/samples/learning-about-current-position.c	/^const char *program_name;$/;"	v	typeref:typename:const char *
+program_name	l4/samples/write-and-read-integers.c	/^const char *program_name;$/;"	v	typeref:typename:const char *
+program_name	l5/samples/get-metadata.c	/^const char *program_name;$/;"	v	typeref:typename:const char *
+reverse_lines	l4/p1.c	/^int reverse_lines(int fd, int max_length, int fd_output) {$/;"	f	typeref:typename:int

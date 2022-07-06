@@ -1,0 +1,68 @@
+create named semaphore
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/sem.h>
+
+int sem_id;
+
+int main(int argc, char *argv[])
+{
+    sem_id = semget(10000, 1, IPC_CREAT | 0600);
+    if (sem_id < 0) {
+        perror("Error creating the semaphore set");
+        exit(2);
+    }
+}
+-------------------------------------------------
+create unnamed semaphore
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/sem.h>
+
+int sem_id;
+
+int main(int argc, char *argv[])
+{
+    sem_id = semget(IPC_PRIVATE, 1, IPC_CREAT | 0600);
+    if (sem_id < 0) {
+        perror("Error creating the semaphore set");
+        exit(2);
+    }
+}
+-------------------------------------------------
+initialize semaphore
+
+// Initialize the first semaphore in the set with 1
+semctl(sem_id, 0, SETVAL, 1);
+
+// Initialize the second semaphore in the set with 10
+semctl(sem_id, 1, SETVAL, 10);
+
+// Initialize the third semaphore in the set with 0
+semctl(sem_id, 2, SETVAL, 0);
+-------------------------------------------------
+remove semaphore
+
+semctl(sem_id, 0, IPC_RMID, 0);
+-------------------------------------------------
+// decrement by 1 the semaphore sem_no in the semaphore set sem_id
+void P(int sem_id, int sem_no)
+{
+    struct sembuf op = {sem_no, -1, 0};
+
+    semop(sem_id, &op, 1);
+}
+-------------------------------------------------
+// increment by 1 the semaphore sem_no in the semaphore set sem_id
+void V(int sem_id, int sem_no)
+{
+    struct sembuf op = {sem_no, +1, 0};
+
+    semop(sem_id, &op, 1);
+}

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "use": "c",
+        "type_traits": "c"
+    }
+}

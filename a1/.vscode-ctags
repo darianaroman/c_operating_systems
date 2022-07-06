@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+MAX_PATH_LEN	a1.c	/^#define MAX_PATH_LEN /;"	d	file:
+extract	a1.c	/^void extract(char *path, int section, int line)$/;"	f	typeref:typename:void
+findall	a1.c	/^int findall(char *path)$/;"	f	typeref:typename:int
+list	a1.c	/^int list(char *path, int recursive, int option, int size, char *str)$/;"	f	typeref:typename:int
+main	a1.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+parse	a1.c	/^int parse(char *path, int display, int section, int *get_offset, int *get_size, int *get_nr_sect/;"	f	typeref:typename:int
